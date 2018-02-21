@@ -1,0 +1,35 @@
+#menuD div.info{
+	height:114px;
+}
+#menuD .info ul li{
+	margin-top:-4px;
+}
+#menuD .info ul{
+	padding-top:0px;
+}
+.pied{
+	height:1px;
+}
+/*#navigation ul.subMenu a {
+	height: 1px;
+}
+#navigation ul.subMenu a:hover {
+	background: url(images/puceptfleche.gif) no-repeat left 17px;
+	background: url(images/puceptfleche.gif) no-repeat left center;
+}
+#basdepage{
+	height: 100px !important;
+}*/
+#faux{
+	background:#acc725;
+	background-image: url(images/fondmenuD.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+	/*border:1px red solid;
+	width: 409px;*/
+}
+#ssmenu dd ul li.alaligne{
+	height:1px;
+	margin:-8px;
+	padding:0;
+}

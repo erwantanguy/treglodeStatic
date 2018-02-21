@@ -1,0 +1,82 @@
+html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family:sans-serif;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select{font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend{color:#000;}
+a, a:hover, a:visited {text-decoration: none;}
+/*END OF YUI RESET*/
+
+body, #faux, #content{
+	background:none;
+}
+#fond{
+	margin: 0px;
+	background: none;
+}
+#page {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+#menuG, #basdepage2, #basdepage, .rapide, #menuD, .pied, #content img{
+	display:none;
+}
+#texte{
+	color:#000;
+	text-align: left;
+	width: 90%;
+	position: absolute;
+	left: 0cm;
+	top: 0cm;
+}
+#texte img{
+	display:none;
+}
+#texte h1{
+	font-size:1.5em !important;
+	color:#000 !important;
+	text-align: left !important;
+}
+#texte h2{
+	font-size:1.3em !important;
+	color:#000 !important;
+	text-align: left !important;
+	display:inline !important;
+}
+#texte #ssmenu dt, #texte h3{
+	font-size:1em !important;
+	color:#000 !important;
+	text-align: left !important;
+}
+#texte h4{
+	font-size:0.8em !important;
+	color:#000 !important;
+	text-align: left !important;
+}
+#texte h5, #texte strong, #texte em, #texte a, #texte li a{
+	font-size:0.75em !important;
+	color:#000 !important;
+	text-align: left !important;
+}
+#ssmenu{
+	margin-top:0px;
+}
+#ssmenu dt{
+	text-align:left;
+}
+#ssmenu dd ul li{
+	color:#000;
+	text-align:left;
+}

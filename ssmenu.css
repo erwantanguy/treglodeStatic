@@ -1,0 +1,67 @@
+#ssmenu{
+	margin:-10px 20px 20px 20px;
+	/*border:1px red solid;*/
+}
+#ssmenu dt{
+	text-align: right;
+	color: #4f5407;
+	font-weight:bold;
+}
+#ssmenu dd ul li{
+	display:inline;
+}
+#ssmenu dd ul li.alaligne{
+	clear:both;
+	display:block;
+}
+#ssmenu dd ul li a{
+	display:inline-block;
+	text-indent:0.4em;
+	font-size:0.65em;
+	color:#6b7321;
+	float:right;
+}
+#ssmenu dd ul li a.barre{
+	background: url(images/menuVf.gif) no-repeat left center;
+	margin-left:0.4em;
+}
+#ssmenu dd ul li a:hover, #ssmenu dd ul li a.vu, #texte p a, #texte p a:hover, #texte ul.liste li a{
+	text-decoration: underline;
+	color:#6b7321;
+}
+#texte strong{
+	color: #4f5407;
+	font-weight:bold;
+}
+#texte em{
+	color: #aac626;
+	font-weight:bold;
+}
+#texte h3{
+	margin:0px 20px 5px 20px;
+	color: #4f5407;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:0.9em;
+}
+#texte h4{
+	color: #4f5407;
+	font-size:0.9em;
+	font-weight:bold;
+	font-style: italic;
+	margin:0px 20px;
+}
+#texte h5{
+	color: #4f5407;
+	font-weight:bold;
+	margin:0px 20px 5px 20px;
+	font-size:0.75em;
+}
+#contextuel a.pdf{
+	display:block;
+	background:url(images/pdf15.gif) no-repeat 240px center;
+}
+#contextuel li{font-weight:bold;}
+#contextuel iframe{
+	margin-top:5px;
+}

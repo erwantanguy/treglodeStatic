@@ -1,0 +1,225 @@
+@charset "utf-8";
+html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family:sans-serif;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select{font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend{color:#000;}
+a, a:hover, a:visited {text-decoration: none;}
+/*END OF YUI RESET*/
+body{
+	background:#24150b;
+}
+#fond{
+	margin: 80px auto 80px auto;
+	background-color: #1d140b;
+}
+#page {
+	width:878px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto 0 auto;
+}
+
+
+
+/* menu gauche */
+
+#menuG {
+	width:137px;
+	padding-top: 20px;
+	float: left;
+}
+#menuG dt img{
+	margin-left:2px;
+}
+#menuG dd {
+	margin-top:26px;
+}
+#menuG a{
+	display: block;
+	color: #58c1e0;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 0.6em;
+}
+#menuG a:hover, #menuG a.content{
+	color: #aac626;
+}
+
+
+/* corps du conteneur */
+
+#faux {
+	 background:#fff;
+	background-image: url(images/fondmenuD.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+#content{
+	width:719px;
+	float: right;
+}
+#content img.bd{
+	margin-right: 6px;
+}
+#texte {
+	width: 411px;
+	background:#fff;
+	float:left;
+}
+#texte h1{
+	color: #aac626;
+	font-size: 1.2em;
+	text-align: right;
+	text-transform: uppercase;
+	padding:10px 20px 0px 20px;
+}
+#texte h2{
+	color:#6b730d;
+	font-size:0.7em !important;
+	font-weight:bold;
+	text-align: right;
+	display: block;
+	margin-bottom: 25px;
+	padding:0px 20px;
+}
+#texte h2 span {
+	display: none;
+}
+#texte p, #texte ul.liste{
+	padding:0px 20px 20px 20px;
+	font-size:0.75em;
+}
+#texte b{
+	padding:0px 20px 20px 20px;
+	font-size:0.75em;
+	color: #4f5407;
+	font-weight:bold;
+}
+#basdepage{
+	 background:#a4ba25;
+	 height:6px;
+}
+#basdepage2{
+	width:719px;
+	background:#a4ba25 url(images/fondmenuD.gif) right top no-repeat;
+	 height:6px;
+}
+.rapide{
+	margin-top:20px;
+}
+#menuD {
+	width: 302px;
+	padding-left: 6px;
+	float:left;
+}
+#menuD .second{
+	height:47px;
+	margin:0px 9px;
+}
+#menuD .second li{
+	float:left;
+	font-size: 0.98em;
+	text-transform: capitalize;
+	line-height: 47px;
+}
+#menuD .second li.news{
+	margin-left:64px;
+}
+#menuD .second li a{
+	color:#4f5407;
+	line-height: 35px;
+	font-weight: bold;
+}
+#menuD .deco{
+	float:left;
+}
+#menuD dl dd ul li a{
+	color:#331c0d;
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+
+
+/* sous menu info en + */
+
+#menuD .info img.deco{
+	float:left;
+	border-right:6px solid #8c9c1d;
+}
+#menuD div.info{
+	height:114px;
+	color:#aac626;
+	background:#4a5801;
+	border-bottom:#281c0f 6px solid;
+	border-top:#281c0f 6px solid;
+	clear:both;
+}
+#menuD .info ul{
+	font-size: 0.96em;
+	float:right;
+	width:157px;
+	text-indent: 15px;
+	margin-top: 7px;
+	font-weight: bold;
+}
+#menuD .info ul li.titre{
+	 /*margin-bottom:3px;
+	 border:1px red solid;*/
+}
+#menuD .info ul li{
+	height:14px;
+}
+#menuD .info ul li a{
+	font-size: 0.6em;
+	color:#aac626;
+	font-weight: normal;
+}
+#menuD .info ul li a:hover, #menuD .info ul li a.open{
+	color:#7a8a16;
+}
+
+
+
+
+/* menu contextuel faq galerie etc. */
+
+#menuD #contextuel{
+	margin:0px 9px;
+	padding:13px 0px;
+	text-indent: 20px;
+	clear:both;
+	background: url(images/pucefleche.gif) no-repeat left 15px;
+}
+#menuD #contextuel li{
+	margin-bottom:1px;
+}
+#menuD #contextuel li a{
+	color:#1d140b;
+	font-size: 0.98em;
+	font-weight: bold;
+}
+
+
+
+
+
+.pied{
+	clear: both;
+	visibility: hidden;
+}
+/*.pied img.cours{
+	margin-right:6px;
+}*/

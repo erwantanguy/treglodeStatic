@@ -1,0 +1,49 @@
+#texte {
+	float:left;
+}
+#menuG dd {
+	margin-top:17px;
+}
+#menuD {
+	float:right;
+	background: url(images/fondmenuD.gif) repeat-y right;
+}
+#menuD .second li{
+	margin-top:13px;
+}
+#menuD div.info{
+	height:114px;
+	overflow: hidden;
+}
+#menuD .info ul li{
+	height:10px;
+	margin-top:-4px;/*-4px*/
+}
+#menuD .info ul{
+	padding-top:6px;/*4px*/
+}
+#menuD .info ul li.titre{
+	 margin-bottom:3px;/*0px*/
+	 margin-top:-8px;
+}
+#menuD .barre{
+	font-size: 1px;
+	height: 5px;
+}
+#basdepage{
+	font-size: 1px;
+}
+#basdepage2{
+	font-size: 1px;
+}
+#menuD .info img.deco{
+	float:left;
+}
+#navigation li {
+	height: 1px;
+}
+#ssmenu dd ul li.alaligne{
+	height:1px;
+	margin:-8px;
+	padding:0;
+}
